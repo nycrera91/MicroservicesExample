@@ -5,6 +5,7 @@ public class Car {
     //test
     private final int whell;
     // 1
+    // 2
     public Car(int whell) {
         this.whell = whell;
     }
