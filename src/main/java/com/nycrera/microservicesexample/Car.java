@@ -16,6 +16,8 @@ public class Car {
 
     public Car(int whell) {
         System.out.println("Add feature1");
+        System.out.println("AddFeature 2");
+        System.out.println("AddFeature 3");
         this.whell = whell;
     }
 
@@ -23,4 +25,8 @@ public class Car {
         System.out.println("Feature1");
     }
 
+
+    private void feature2(){
+        System.out.println("Feature 2");
+    }
 }
