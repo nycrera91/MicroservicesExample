@@ -15,6 +15,12 @@ public class Car {
     //test4
 
     public Car(int whell) {
+        System.out.println("Add feature1");
         this.whell = whell;
     }
+
+    private void feature1() {
+        System.out.println("Feature1");
+    }
+
 }
